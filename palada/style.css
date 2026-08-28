@@ -60,6 +60,13 @@ main section {
 @media (max-width: 601px) {
   h1{ 
     font-size: 100px;
-    color: red;
+    color: rgb(88, 55, 233);
    }
 }
+@media (max-width: 768px) {  
+   h2{
+    font-size: 50px;
+    color: red;
+   }
+}   
+   
