@@ -21,10 +21,14 @@ function greet(greetings, names = []) {
     return `${greetings}sa inyu ${names.join("alexander")}`;
 }
 
-console.log(greet("Mayung aga", ["Mark", "papalada", "yambot", "mamalada", "moew"]));
+console.log(greet("Mayung aga", ["alexa"]));
 
 
 const heading = document.querySelector("h1");
+heading.textContent = "your father's name";
+heading.style.color = "purple";
+heading.style.background = "yellow";
+heading.style.fontSize = "100px";
 console.log(heading);
 
 const contactHeading = document.querySelector("#contact h2");
@@ -32,4 +36,3 @@ console.log(contactHeading);
 
 const servicesHeadingHeading = document.querySelector("#services h2");
 console.log(servicesHeadingHeading);
- const projectsHeading = document.querySelector("#projects h2");
