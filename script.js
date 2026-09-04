@@ -4,7 +4,7 @@ console.log ("From script.js file.");
 const myName = "Alex";
 let age = 23;
 Age = 24;
-const PhonwNumber = "09302324013"; ;
+const Number = "09302324013";
 const address = "malinong gahod";
 
 console.log(`my name: ${myName}1`);
@@ -18,8 +18,17 @@ function greet(greetings, names = []) {
         names = names.join(", "); 
       
     }
-    return `${greetings}sa inyu ${names.join}`;
+    return `${greetings}sa inyu ${names.join("alexander")}`;
 }
 
-console.log(greet(["Mayung aga", "sa enyu"], ["Mark", "Bai", "Soy", "Tol", "Erp"]));
+console.log(greet("Mayung aga", ["Mark", "papalada", "yambot", "mamalada", "moew"]));
 
+
+const heading = document.querySelector("h1");
+console.log(heading);
+
+const contactHeading = document.querySelector("#contact h2");
+console.log(contactHeading);
+
+const servicesHeadingHeading = document.querySelector("#services h2");
+console.log(servicesHeadingHeading);
