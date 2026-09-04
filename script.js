@@ -32,3 +32,4 @@ console.log(contactHeading);
 
 const servicesHeadingHeading = document.querySelector("#services h2");
 console.log(servicesHeadingHeading);
+ const projectsHeading = document.querySelector("#projects h2");
