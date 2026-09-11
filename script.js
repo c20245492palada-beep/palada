@@ -25,14 +25,14 @@ console.log(greet("Mayung aga", ["alexa"]));
 
 
 const heading = document.querySelector("h1");
-heading.textContent = "your father's name";
+heading.textContent = "Noel Espanola Palada";
 heading.style.color = "purple";
 heading.style.background = "yellow";
 heading.style.fontSize = "100px";
 console.log(heading);
 
 heading.addEventListener("click", function() {
-heading.style.color = "pink";
+heading.style.color = "red";
 console.log("heading clicked");
 });
 
@@ -58,3 +58,4 @@ if (isOFF) {
     body.style.color = "black";
  }
 })
+ 
